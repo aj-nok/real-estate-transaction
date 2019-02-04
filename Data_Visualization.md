@@ -23,5 +23,4 @@ city_count.plot(kind='bar')
 
 OUTPUT:
 BAR Graph between cities and their counts: 
-
 ![image1](city_vs_city_count.png)
