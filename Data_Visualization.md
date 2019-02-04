@@ -10,6 +10,7 @@ dataset: realesatatetransactions.csv
 """
 
 CODE:
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as mplt
@@ -22,4 +23,5 @@ city_count.plot(kind='bar')
 
 OUTPUT:
 BAR Graph between cities and their counts: 
-![](city_vs_city_count.png)
+
+![image1](city_vs_city_count.png)
