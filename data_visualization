@@ -22,5 +22,7 @@ city_count.plot(kind='bar')
 
 OUTPUT:
 BAR Graph between cities and their counts: 
+![alt text](https://github.com/aj-nok/real-estate-transaction/blob/master/city_vs_city_count.png)
+
 
 
