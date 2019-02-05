@@ -6,3 +6,7 @@
 ![](images/boxplotcity_vs_price_1.png)   
 
 ![](images/boxplotcity_vs_price_2.png)
+
+![](images/boxplotcity_vs_beds_1.png)   
+
+![](images/boxplotcity_vs_beds_2.png)
