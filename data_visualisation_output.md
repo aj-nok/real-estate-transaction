@@ -14,3 +14,7 @@
 ![](images/boxplotcity_vs_sqft_1.png)   
 
 ![](images/boxplotcity_vs_sqft_2.png)
+
+![](images/scatterplot_price_vs_sqft.png)
+
+
