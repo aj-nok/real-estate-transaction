@@ -3,7 +3,6 @@
 
 ![](images/type_vs_type_count.png)
 
-![](images/boxplot city vs price_1.png)
+![](images/boxplot_city_vs_price_1.png)
 
-![](images/boxplot city vs price_2.png)
-
+![](images/boxplot_city_vs_price_2.png)
