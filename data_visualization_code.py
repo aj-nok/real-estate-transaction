@@ -9,7 +9,8 @@ about: Data Visualization using pandas,numpy,matplotlib
 dataset: realesatatetransactions.csv
 """
 
-CODE:
+#CODE:
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as mplt
@@ -21,6 +22,7 @@ city_count=data['city'].value_counts()                                          
 city_count.plot(kind='bar', title='BAR Graph between cities and their counts:') 
 type_count=data['type'].value_counts()
 type_count.plot(kind='bar',title='BAR Graph between type and their counts:')
+
 
 cityprice_sacramento = data['price'][data['city']=='SACRAMENTO']                          #BOX PLOT: TOP CITIES VS PRICE
 cityprice_elkgrove = data['price'][data['city']=='ELK GROVE']
@@ -36,8 +38,8 @@ ax = fig.add_subplot(111)
 ax.boxplot([cityprice_sacramento,cityprice_elkgrove,cityprice_lincoln,cityprice_roseville], labels=['SACRAMENTO', 'ELK GROVE','LINCOLN','ROSEVILLE'])
 ax.boxplot([cityprice_citrusheights,cityprice_antelope,cityprice_ranchocordova,cityprice_eldoradohills,cityprice_galt], labels=['CITRUS HEIGHTS', 'ANTELOPE','RANCHO CORDOVA','EL DORADO HILLS','GALT'])
 
-citysqft_sacramento = data['sq__ft'][data['city']=='SACRAMENTO']                         #BOX PLOT: TOP CITIES VS SQFT
 
+citysqft_sacramento = data['sq__ft'][data['city']=='SACRAMENTO']                         #BOX PLOT: TOP CITIES VS SQFT
 citysqft_elkgrove = data['sq__ft'][data['city']=='ELK GROVE']
 citysqft_lincoln = data['sq__ft'][data['city']=='LINCOLN']
 citysqft_roseville = data['sq__ft'][data['city']=='ROSEVILLE']
