@@ -10,3 +10,7 @@
 ![](images/boxplotcity_vs_beds_1.png)   
 
 ![](images/boxplotcity_vs_beds_2.png)
+
+![](images/boxplotcity_vs_sqft_1.png)   
+
+![](images/boxplotcity_vs_sqft_2.png)
