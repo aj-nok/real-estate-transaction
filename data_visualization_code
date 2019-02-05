@@ -15,7 +15,23 @@ import numpy as np
 import matplotlib.pyplot as mplt
 import seaborn as sns
 
-data=pd.read_csv("realestatetransactions.csv")
-print(" BAR Graph between cities and their counts: ")
+data=pd.read_csv("realestatetransactions.csv")                                            #BAR GRAPH
+print(" BAR Graph between cities and their counts: ")     
 city_count=data['city'].value_counts()
 city_count.plot(kind='bar')
+
+cityprice_sacramento = data['price'][data['city']=='SACRAMENTO']                          #BOX PLOT: TOP CITIES VS PRICE
+cityprice_elkgrove = data['price'][data['city']=='ELK GROVE']
+cityprice_lincoln = data['price'][data['city']=='LINCOLN']
+cityprice_roseville = data['price'][data['city']=='ROSEVILLE']
+cityprice_citrusheights = data['price'][data['city']=='CITRUS HEIGHTS']
+cityprice_antelope = data['price'][data['city']=='ANTELOPE']
+cityprice_ranchocordova = data['price'][data['city']=='RANCHO CORDOVA']
+cityprice_eldoradohills = data['price'][data['city']=='EL DORADO HILLS']
+cityprice_galt = data['price'][data['city']=='GALT']
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.boxplot([cityprice_sacramento,cityprice_elkgrove,cityprice_lincoln,cityprice_roseville], labels=['SACRAMENTO', 'ELK GROVE','LINCOLN','ROSEVILLE'])
+ax.boxplot([cityprice_citrusheights,cityprice_antelope,cityprice_ranchocordova,cityprice_eldoradohills,cityprice_galt], labels=['CITRUS HEIGHTS', 'ANTELOPE','RANCHO CORDOVA','EL DORADO HILLS','GALT'])
+
+
