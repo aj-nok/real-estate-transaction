@@ -9,7 +9,8 @@ about: PYTHON code for importing CSV file and applying mean, groupby, order by
 dataset:realestatetransactions.csv
 """
 
-CODE:
+#CODE:
+
 import pandas as pd
 data=pd.read_csv("realestatetransactions.csv",index_col=0)
 #df = pd.DataFrame(data['city'])
