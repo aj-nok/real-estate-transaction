@@ -36,4 +36,19 @@ ax = fig.add_subplot(111)
 ax.boxplot([cityprice_sacramento,cityprice_elkgrove,cityprice_lincoln,cityprice_roseville], labels=['SACRAMENTO', 'ELK GROVE','LINCOLN','ROSEVILLE'])
 ax.boxplot([cityprice_citrusheights,cityprice_antelope,cityprice_ranchocordova,cityprice_eldoradohills,cityprice_galt], labels=['CITRUS HEIGHTS', 'ANTELOPE','RANCHO CORDOVA','EL DORADO HILLS','GALT'])
 
+citysqft_sacramento = data['sq__ft'][data['city']=='SACRAMENTO']                         #BOX PLOT: TOP CITIES VS SQFT
+
+citysqft_elkgrove = data['sq__ft'][data['city']=='ELK GROVE']
+citysqft_lincoln = data['sq__ft'][data['city']=='LINCOLN']
+citysqft_roseville = data['sq__ft'][data['city']=='ROSEVILLE']
+citysqft_citrusheights = data['sq__ft'][data['city']=='CITRUS HEIGHTS']
+citysqft_antelope = data['sq__ft'][data['city']=='ANTELOPE']
+citysqft_ranchocordova = data['sq__ft'][data['city']=='RANCHO CORDOVA']
+citysqft_eldoradohills = data['sq__ft'][data['city']=='EL DORADO HILLS']
+citysqft_galt = data['sq__ft'][data['city']=='GALT']
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.set_title('BOX PLOT CITY VS sqft 2')
+ax.boxplot([citysqft_sacramento,citysqft_elkgrove,citysqft_lincoln,citysqft_roseville], labels=['SACRAMENTO', 'ELK GROVE','LINCOLN','ROSEVILLE'])
+ax.boxplot([citysqft_citrusheights,citysqft_antelope,citysqft_ranchocordova,citysqft_eldoradohills,citysqft_galt], labels=['CITRUS HEIGHTS', 'ANTELOPE','RANCHO CORDOVA','EL DORADO HILLS','GALT'])
 
