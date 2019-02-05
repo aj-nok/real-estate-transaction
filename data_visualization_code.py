@@ -53,3 +53,8 @@ ax = fig.add_subplot(111)
 ax.set_title('BOX PLOT CITY VS sqft 2')
 ax.boxplot([citysqft_sacramento,citysqft_elkgrove,citysqft_lincoln,citysqft_roseville], labels=['SACRAMENTO', 'ELK GROVE','LINCOLN','ROSEVILLE'])
 ax.boxplot([citysqft_citrusheights,citysqft_antelope,citysqft_ranchocordova,citysqft_eldoradohills,citysqft_galt], labels=['CITRUS HEIGHTS', 'ANTELOPE','RANCHO CORDOVA','EL DORADO HILLS','GALT'])
+
+plt.scatter(data['price'], data['sq__ft'],  c='blue', alpha=0.5)       #SCATTER PLOT PRICE VS SQFT
+plt.title('Scatter plot price vs sqft')
+plt.xlabel('price')
+plt.ylabel('sq__ft')
