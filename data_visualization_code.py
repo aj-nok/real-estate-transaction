@@ -58,3 +58,13 @@ plt.scatter(data['price'], data['sq__ft'],  c='blue', alpha=0.5)       #SCATTER 
 plt.title('Scatter plot price vs sqft')
 plt.xlabel('price')
 plt.ylabel('sq__ft')
+
+plt.scatter(data['price'], data['beds'],  c='red', alpha=0.5)           #SCATTER PLOT PRICE VS BEDS
+plt.title('Scatter plot price vs beds')
+plt.xlabel('price')
+plt.ylabel('beds')
+
+plt.scatter(data['price'], data['baths'],  c='green', alpha=0.5)           #SCATTER PLOT PRICE VS BATHS
+plt.title('Scatter plot price vs baths')
+plt.xlabel('price')
+plt.ylabel('baths')
