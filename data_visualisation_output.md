@@ -17,4 +17,8 @@
 
 ![](images/scatterplot_price_vs_sqft.png)
 
+![](images/scatterplot_price_vs_beds.png)
+
+![](images/scatterplot_price_vs_baths.png)
+
 
