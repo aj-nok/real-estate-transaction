@@ -13,8 +13,7 @@
 
 4.
   A.
-  ![](images/boxplotcity_vs_beds_1.png)   
-  
+  ![](images/boxplotcity_vs_beds_1.png)    
   B.
   ![](images/boxplotcity_vs_beds_1_new.png)  
 
