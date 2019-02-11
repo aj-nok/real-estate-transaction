@@ -1,16 +1,15 @@
 
-1. ![](images/city_vs_city_count.png)
+ ![](images/city_vs_city_count.png)
 
-2. ![](images/type_vs_type_count.png)
+ ![](images/type_vs_type_count.png)
 
-3. 
+
   <img align="left" src="images/boxplotcity_vs_price_1.png">   
   <img align="right" src="images/boxplotcity_vs_price_2.png">
 
-4. <img align="left" src="images/boxplotcity_vs_beds_1.png">   
-   <img align="right" src="images/boxplotcity_vs_beds_1_new.png"> 
+  <img align="left" src="images/boxplotcity_vs_beds_1.png">   
+  <img align="right" src="images/boxplotcity_vs_beds_1_new.png"> 
 
-5.
   <img align="left" src="images/boxplotcity_vs_beds_2.png">   
   <img align="right" src="images/boxplotcity_vs_beds_2_new.png">
 
