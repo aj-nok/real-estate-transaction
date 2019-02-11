@@ -8,12 +8,12 @@
    <img align="right" src="images/boxplotcity_vs_price_2.png">
 
 4.
-  A. ![](images/boxplotcity_vs_beds_1.png)    
-  B. ![](images/boxplotcity_vs_beds_1_new.png)  
+  <img align="left" src="images/boxplotcity_vs_beds_1.png">   
+  <img align="right" src="images/boxplotcity_vs_beds_1_new.png"> 
 
 5.
-  A. ![](images/boxplotcity_vs_beds_2.png)
-  B. ![](images/boxplotcity_vs_beds_2_new.png)
+  <img align="left" src="images/boxplotcity_vs_beds_2.png">   
+  <img align="right" src="images/boxplotcity_vs_beds_2_new.png">
 
 6.
   A. ![](images/boxplotcity_vs_sqft_1.png)   
