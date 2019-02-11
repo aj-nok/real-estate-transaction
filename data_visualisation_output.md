@@ -1,10 +1,12 @@
 
-1. ![](images/city_vs_city_count.png)
+1. 
+![](images/city_vs_city_count.png)
 
-2. ![](images/type_vs_type_count.png)
+2. 
+![](images/type_vs_type_count.png)
 
 3. 
-  1. ![](images/boxplotcity_vs_price_1.png)   
+![](images/boxplotcity_vs_price_1.png)   
 
   2. ![](images/boxplotcity_vs_price_2.png)
 
