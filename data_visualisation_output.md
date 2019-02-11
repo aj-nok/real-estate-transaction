@@ -5,7 +5,7 @@
 
 
   <img align="left" width="460" height="300" src="images/boxplotcity_vs_price_1.png">   
-  <img align="right" "src="images/boxplotcity_vs_price_2.png">
+  <img align="right" width="460" height="300" src="images/boxplotcity_vs_price_2.png">
 
   <img align="left" src="images/boxplotcity_vs_beds_1.png">   
   <img align="right" src="images/boxplotcity_vs_beds_1_new.png"> 
