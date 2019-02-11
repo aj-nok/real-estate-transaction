@@ -1,7 +1,7 @@
 
-  ![](images/city_vs_city_count.png)
+  <img width="600" height="600"src="images/city_vs_city_count.png">
 
-  ![](images/type_vs_type_count.png)
+  <img width="420" height="300" src="images/type_vs_type_count.png">
 
 
   <img align="left" width="420" height="300" src="images/boxplotcity_vs_price_1.png">   
