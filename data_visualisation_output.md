@@ -1,4 +1,3 @@
-
 1. 
 ![](images/city_vs_city_count.png)
 
