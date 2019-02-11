@@ -1,3 +1,4 @@
+
 1. 
 ![](images/city_vs_city_count.png)
 
@@ -5,16 +6,12 @@
 ![](images/type_vs_type_count.png)
 
 3.
-  A.
-  ![](images/boxplotcity_vs_price_1.png)   
-  B.
-  ![](images/boxplotcity_vs_price_2.png)
+  A. ![](images/boxplotcity_vs_price_1.png)   
+  B. ![](images/boxplotcity_vs_price_2.png)
 
 4.
-  A.
-  ![](images/boxplotcity_vs_beds_1.png)    
-  B.
-  ![](images/boxplotcity_vs_beds_1_new.png)  
+  A. ![](images/boxplotcity_vs_beds_1.png)    
+  B. ![](images/boxplotcity_vs_beds_1_new.png)  
 
 5.
   A.
