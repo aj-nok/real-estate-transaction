@@ -1,5 +1,5 @@
 
-1. ![](images/city_vs_city_count.png)
+1. ![](align="right" src="images/city_vs_city_count.png")
 
 2. ![](images/type_vs_type_count.png)
 
