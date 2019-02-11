@@ -5,7 +5,7 @@
 
 3.
   A. ![](images/boxplotcity_vs_price_1.png)   
-  B. <img align="right" src="images/boxplotcity_vs_price_2.png")
+  B. <img align="right" src="images/boxplotcity_vs_price_2.png">
 
 4.
   A. ![](images/boxplotcity_vs_beds_1.png)    
