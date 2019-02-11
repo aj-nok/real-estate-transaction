@@ -7,8 +7,8 @@
   <img align="left" width="420" height="300" src="images/boxplotcity_vs_price_1.png">   
   <img align="right" width="420" height="300" src="images/boxplotcity_vs_price_2.png">
 
-  <img align="left" width="420" height="300"src="images/boxplotcity_vs_beds_1.png">   
-  <img align="right" width="420" height="300"src="images/boxplotcity_vs_beds_1_new.png"> 
+  <img align="left" width="420" height="300" src="images/boxplotcity_vs_beds_1.png">   
+  <img align="right" width="420" height="300" src="images/boxplotcity_vs_beds_1_new.png"> 
 
   <img align="left" width="420" height="300"src="images/boxplotcity_vs_beds_2.png">   
   <img align="right" width="420" height="300"src="images/boxplotcity_vs_beds_2_new.png">
