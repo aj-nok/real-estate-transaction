@@ -5,6 +5,7 @@
 2. 
 ![](images/type_vs_type_count.png)
 
+3.
 3.1.
 ![](images/boxplotcity_vs_price_1.png)   
 
