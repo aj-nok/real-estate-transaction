@@ -5,10 +5,10 @@
 2. 
 ![](images/type_vs_type_count.png)
 
-3.1
+3.1.
 ![](images/boxplotcity_vs_price_1.png)   
 
-3.2
+3.2.
  ![](images/boxplotcity_vs_price_2.png)
 
 ![](images/boxplotcity_vs_beds_1.png)   
