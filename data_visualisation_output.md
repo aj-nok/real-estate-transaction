@@ -22,7 +22,6 @@
   B.
   ![](images/boxplotcity_vs_beds_2_new.png)
 
-
 6.
   A.
   ![](images/boxplotcity_vs_sqft_1.png)   
