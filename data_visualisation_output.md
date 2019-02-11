@@ -12,6 +12,7 @@
   B.
   ![](images/boxplotcity_vs_price_2.png)
 
+4.
 ![](images/boxplotcity_vs_beds_1.png)   
 
 ![](images/boxplotcity_vs_beds_1_new.png)  
