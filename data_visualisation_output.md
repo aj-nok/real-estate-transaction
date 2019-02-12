@@ -1,6 +1,6 @@
   <img width="700" height="700" src="images/correlation_matrix.png">
   
-   <img width="700" height="700" src="images/correlation_matrix_value.png">
+   <img width="700" height="700" src="images/correlation_matrix_values.png">
   
   <img width="700" height="700" src="images/city_vs_city_count.png">
 
