@@ -1,5 +1,7 @@
   <img width="700" height="700" src="images/correlation_matrix.png">
   
+   <img width="700" height="700" src="images/correlation_matrix_value.png">
+  
   <img width="700" height="700" src="images/city_vs_city_count.png">
 
   <img width="700" height="700" src="images/type_vs_type_count.png">
