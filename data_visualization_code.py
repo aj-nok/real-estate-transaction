@@ -68,3 +68,7 @@ plt.scatter(data['price'], data['baths'],  c='green', alpha=0.5)           #SCAT
 plt.title('Scatter plot price vs baths')
 plt.xlabel('price')
 plt.ylabel('baths')
+
+pd.plotting.scatter_matrix(df, figsize=(6, 6))                    #Correlation Matrix
+plt.show()
+print(df.corr())
