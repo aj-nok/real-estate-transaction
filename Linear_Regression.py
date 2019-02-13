@@ -22,9 +22,8 @@ Y=Y.values.reshape(len(Y),1)
 #Y_test = Y[-250:]
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random_state=42)    #Split the targets into training/testing sets Randomly
-model.fit(X_train, Y_train)
- 
 
+model.fit(X_train, Y_train)
 plt.scatter(X_test, Y_test,  color='black')
 plt.title('Test Data')
 plt.xlabel('Size')
@@ -32,7 +31,6 @@ plt.ylabel('Price')
 plt.xticks(())
 plt.yticks(())
 
-model.fit(X_train, Y_train)
 plt.plot(X_test, model.predict(X_test), color='red',linewidth=3)
 plt.show()
 print(model.predict(X_test))
