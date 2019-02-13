@@ -5,8 +5,8 @@ from sklearn.metrics import mean_squared_error
 from sklearn import cross_validation
 import pandas as pd
 import numpy as np 
-
 model = LinearRegression()
+
 df=pd.read_csv("realestatetransactions_new.csv")
 
 
@@ -16,10 +16,13 @@ X=X.values.reshape(len(X),1)
 Y=Y.values.reshape(len(Y),1)
 
 
-X_train = X[:-250]                        # Split the targets into training/testing sets Manually
-X_test = X[-250:]
-Y_train = Y[:-250]
-Y_test = Y[-250:]
+#X_train = X[:-250]                        # Split the targets into training/testing sets Manually
+#X_test = X[-250:]
+#Y_train = Y[:-250]
+#Y_test = Y[-250:]
+
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33, random_state=42)    #Split the targets into training/testing sets Randomly
+model.fit(X_train, Y_train)
  
 
 plt.scatter(X_test, Y_test,  color='black')
@@ -29,9 +32,7 @@ plt.ylabel('Price')
 plt.xticks(())
 plt.yticks(())
 
-
-regr =LinearRegression()
-regr.fit(X_train, Y_train)
-plt.plot(X_test, regr.predict(X_test), color='red',linewidth=3)
+model.fit(X_train, Y_train)
+plt.plot(X_test, model.predict(X_test), color='red',linewidth=3)
 plt.show()
-print(regr.predict(X_test))
+print(model.predict(X_test))
