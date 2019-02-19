@@ -63,7 +63,7 @@ def values():
     global New_baths_Rate 
     New_baths_Rate = int(entry5.get()) 
     Prediction_result  = ('Predicted  Price: ', model.predict([[New_sq__ft_Rate,New_beds_Rate,New_baths_Rate]]))
-    label_Prediction = tk.Label(root, text= Prediction_result, bg='orange')
+    label_Prediction = tk.Label(root, text= Prediction_result, font=("times", 21), bg='red')
     canvas1.create_window(260, 280, window=label_Prediction)
     
 button1 = tk.Button (root, text='Predict  Price',command=values, bg='cyan') 
