@@ -1,8 +1,8 @@
-  <img width="700" height="700" src="images/Linear_regression.PNG">
+  <img width="500" height="500" src="images/Linear_regression.PNG">
   
-  <img width="700" height="700" src="images/multiple_regression.PNG">
+  <img width="500" height="500" src="images/multiple_regression.PNG">
   
-  <img width="900" height="400" src="images/python_gui.PNG">
+  <img width="900" height="500" src="images/python_gui.PNG">
   
   <img width="700" height="700" src="images/correlation_matrix.png">
   
