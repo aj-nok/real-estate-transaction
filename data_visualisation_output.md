@@ -2,6 +2,8 @@
   
   <img width="700" height="700" src="images/multiple_regression.PNG">
   
+  <img width="700" height="900" src="images/python_gui.PNG">
+  
   <img width="700" height="700" src="images/correlation_matrix.png">
   
   <img width="600" height="400" src="images/correlation_matrix_values.png">
