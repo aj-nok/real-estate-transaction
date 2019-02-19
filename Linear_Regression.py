@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 12 12:42:42 2019
+
+@author: aja-nok
+"""
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
