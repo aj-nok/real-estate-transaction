@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 13 14:48:51 2019
 
-@author: ajas
+@author: aj-nok
 """
 
 from sklearn.linear_model import LinearRegression
