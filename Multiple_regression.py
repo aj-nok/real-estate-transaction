@@ -16,8 +16,8 @@ import numpy as np
 model = LinearRegression()
 
 df=pd.read_csv('realestatetransactions.csv',usecols=["sq__ft","latitude","longitude","beds","baths","price"])
-df = df[df.sq__ft != 0]
-df = (df - df.mean())/df.std()              
+df = df[df.sq__ft != 0]                                         #Getting numeric fields only    
+df = (df - df.mean())/df.std()                                  #DATA Normalization
 
 
 X = np.column_stack((df['sq__ft'],df['beds'],df['baths'],df['latitude'],df['longitude']))
@@ -29,14 +29,13 @@ Y=Y.values.reshape(len(Y),1)
 #model.fit(X, Y)
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=11)
-model.fit(X_train, Y_train)
+model.fit(X_train, Y_train)                                    #Split the targets into training/testing sets
 Y_pred_ml = model.predict(X_test)
 
 print('r2 value: ', r2_score(Y_test, Y_pred_ml))
-
-print('Intercept: ', model.intercept_)
+print('Intercept: ', model.intercept_)                  
 print('Coefficients: ', model.coef_)
-X = sm.add_constant(X) 
+X = sm.add_constant(X)                                           #Applying Ordinary Least Squares
 mod = sm.OLS(Y, X).fit()
 predictions = mod.predict(X) 
 print_mod = mod.summary()
