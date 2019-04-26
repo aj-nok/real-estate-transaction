@@ -16,7 +16,7 @@ import pandas_profiling
 def import_csv_data():
     global v
     csv_file_path = askopenfilename()
-    print(csv_file_path)
+    #print(csv_file_path)
     v.set(csv_file_path)
     df = pd.read_csv(csv_file_path)
     st_pat=csv_file_path.rsplit('/', 1)[0]
@@ -27,6 +27,7 @@ def import_csv_data():
 def profile(df,st_pat):
     profile = pandas_profiling.ProfileReport(df)
     profile.to_file(outputfile=st_pat)
+    print("YOUR PROFILING OUTPUT IS CREATED IN THE SAME PATH AS YOUR CSV")
     
     
 root = tk.Tk()
