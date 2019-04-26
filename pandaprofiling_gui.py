@@ -27,7 +27,7 @@ def import_csv_data():
 def profile(df,st_pat):
     profile = pandas_profiling.ProfileReport(df)
     profile.to_file(outputfile=st_pat)
-    print("YOUR PROFILING OUTPUT IS CREATED IN THE SAME PATH AS YOUR CSV")
+    print("YOUR PANDAS_PROFILING OUTPUT IS CREATED IN THE SAME PATH AS YOUR CSV..")
     
     
 root = tk.Tk()
